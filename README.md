@@ -26,7 +26,7 @@ PCキーボードで演奏できるブラウザピアノと、CSVの音符デー
 
 ## 🎹 デモ
 
-(https://neeeeeeo3.github.io/heart-piano/)
+https://neeeeeeo3.github.io/heart-piano/
 
 ## 🧩 システム構成
 
