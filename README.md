@@ -29,7 +29,7 @@ PCキーボードで演奏できるブラウザピアノと、CSVの音符デー
 GitHub Pagesを有効にすると、次の形式のURLからハートピアノを開けます。
 
 ```text
-https://GitHubユーザー名.github.io/heart-piano/
+https://neeeeeeo3.github.io/heart-piano/
 ```
 
 公開後、この部分を実際のURLへ書き換えてください。
