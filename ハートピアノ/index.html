@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- 文字コードをUTF-8に設定します -->
+  <meta charset="UTF-8">
+
+  <!-- スマートフォンでも画面幅に合わせて表示します -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ブラウザのタブに表示されるページ名です -->
+  <title>ハートピアノ - Multi-File Edition</title>
+
+  <!-- 見た目を設定するCSSファイルを読み込みます -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ページのタイトル -->
+  <h2>✨ ハートピアノ ✨</h2>
+
+  <!-- ハートを表示する場所 -->
+  <div id="heart-container">💖</div>
+
+  <!-- ピアノの鍵盤を配置するエリア -->
+  <div id="board">
+    <!-- 上段の鍵盤 -->
+    <div id="row-up-black" class="row"></div>
+    <div id="row-up-white" class="row"></div>
+
+    <!-- 中段の鍵盤 -->
+    <div id="row-mid-black" class="row"></div>
+    <div id="row-mid-white" class="row"></div>
+
+    <!-- 下段の鍵盤 -->
+    <div id="row-low-black" class="row"></div>
+    <div id="row-low-white" class="row"></div>
+  </div>
+
+  <!-- 演奏中の音を視覚的に表示するエリア -->
+  <div id="piano-visualizer"></div>
+
+  <!-- システムの状態と、最後に押したキーを表示します -->
+  <div id="status">System: Separated ♡</div>
+  <div id="debug">Last Key: None</div>
+
+  <!-- 動きを設定するJavaScriptファイルを最後に読み込みます -->
+  <script src="script.js"></script>
+</body>
+</html>

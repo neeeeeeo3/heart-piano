@@ -1,0 +1,159 @@
+/* ============================================================
+   1. Webフォントの読み込み
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
+
+
+/* ============================================================
+   2. ページ全体の見た目と配置
+   ============================================================ */
+
+body {
+  background: radial-gradient(circle, #3d001f 0%, #050505 100%);
+
+  color: #ffb7d5;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+  margin: 0;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+
+/* ============================================================
+   3. タイトルとハート
+   ============================================================ */
+
+h2 {
+  font-size: 2em;
+  text-shadow: 0 0 15px #ff0077;
+  margin: 5px;
+}
+
+#heart-container {
+  font-size: 40px;
+  height: 50px;
+
+  transition: transform 0.1s;
+
+  filter: drop-shadow(0 0 10px #ff0077);
+}
+
+
+/* ============================================================
+   4. PCキーボードを表す操作用の鍵盤
+   ============================================================ */
+
+#board {
+  padding: 15px;
+  border: 3px solid #ff0077;
+  border-radius: 20px;
+  background: rgba(20, 0, 10, 0.8);
+  box-shadow: 0 0 30px rgba(255, 0, 119, 0.4);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 4px 0;
+}
+
+.key {
+  width: 44px;
+  height: 44px;
+
+  line-height: 44px;
+
+  border: 1px solid rgba(255, 183, 213, 0.3);
+  border-radius: 10px;
+  margin: 2px;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+
+  background: rgba(255, 0, 119, 0.1);
+
+  transition: 0.05s;
+}
+
+.key-spacer {
+  width: 44px;
+  margin: 2px;
+}
+
+.key.active {
+  background: #ff0077;
+  box-shadow: 0 0 15px #ff0077;
+  transform: translateY(3px);
+  color: #fff;
+}
+
+.label {
+  display: block;
+  font-size: 10px;
+  margin-top: -14px;
+  opacity: 0.8;
+}
+
+
+/* ============================================================
+   5. ピアノの鍵盤を表すビジュアライザー
+   ============================================================ */
+
+#piano-visualizer {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.p-key {
+  width: 14px;
+  height: 60px;
+  border: 1px solid #ff0077;
+  border-radius: 0 0 3px 3px;
+  margin: 0 1px;
+  background: #fff;
+}
+
+.p-key.black {
+  width: 10px;
+  height: 35px;
+  margin-left: -6px;
+  margin-right: -6px;
+  background: #3d001f;
+
+  z-index: 2;
+}
+
+.p-key.active {
+
+  background: #ff0077 !important;
+}
+
+
+/* ============================================================
+   6. システム状態とデバッグ情報
+   ============================================================ */
+
+#status {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #ff0077;
+  font-weight: bold;
+}
+
+#debug {
+  margin-top: 5px;
+  font-size: 0.8em;
+  color: #aaa;
+}
