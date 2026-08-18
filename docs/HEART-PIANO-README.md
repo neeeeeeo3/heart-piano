@@ -69,13 +69,9 @@ Google Fontsを読み込むため、最初の表示時にはインターネッ�
 
 ### GitHub Pagesから起動する
 
-GitHub Pagesを有効にしている場合は、公開されたサイトURLへアクセスします。一般的なURL形式は次のとおりです。
-
 ```text
-https://GitHubユーザー名.github.io/リポジトリ名/
+https://neeeeeeo3.github.io/heart-piano/
 ```
-
-GitHub Pagesの公開元は、`main`ブランチの`/(root)`に設定してください。リポジトリ直下の`index.html`がサイトの入口として読み込まれます。
 
 ### PC上で起動する
 
