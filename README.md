@@ -38,7 +38,7 @@ https://GitHubユーザー名.github.io/heart-piano/
 
 ```mermaid
 flowchart TD
-    A[音楽イベントCSV] --> B[CHIMERA]
+    A[音楽イベントCSV] --> B[自動演奏ツール]
     B --> C[キーボード入力]
     C --> D[Heart Piano]
     D --> E[Web Audio API]
@@ -65,7 +65,7 @@ heart-piano/
 | `style.css` | 色、サイズ、配置、発光表現 |
 | `script.js` | 鍵盤生成、キー入力、音声合成 |
 | `README.md` | Heart Pianoの詳しい仕様とカスタマイズ方法 |
-| `自動演奏ツール/*.ahk` | CSV自動演奏用AutoHotkey v2スクリプト |
+| `自動演奏ツール/自動演奏ツール.ahk` | CSV自動演奏用AutoHotkey v2スクリプト |
 | `自動演奏ツール/README.md` | 自動演奏ツールの詳しい仕様、CSV形式、注意事項 |
 
 ## 🚀 Heart Pianoを使う
@@ -107,7 +107,7 @@ heart-piano/
 ### 起動手順
 
 1. AutoHotkey v2をインストールします。
-2. `chimera`フォルダ内の`.ahk`ファイルを起動します。
+2. `自動演奏ツール`フォルダ内の`自動演奏ツール.ahk`ファイルを起動します。
 3. 表示された画面で演奏用CSVを選択します。
 4. `READY: F1 TO START`と表示されるまで待ちます。
 5. Heart Pianoを表示しているブラウザをクリックします。
