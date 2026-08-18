@@ -93,7 +93,7 @@ heart-piano/
 | 中音域 | `Z X C V B N M` | `S D G H J` |
 | 低音域 | `, . / O P [ ]` | `L ; 0 - ^` |
 
-キーとMIDIノート番号の完全な対応表は、[Heart Pianoの詳細README](./README.md)を参照してください。
+キーとMIDIノート番号の完全な対応表は、[Heart Pianoの詳細README](./ハートピアノ/README.md)を参照してください。
 
 ## 🤖 自動演奏ツールで自動演奏する
 
@@ -114,7 +114,7 @@ heart-piano/
 6. `F1`を押して演奏を開始します。
 7. 途中で停止する場合は`Esc`を押します。
 
-CSVの列構成、演奏スタイル、全MIDI対応表については、[自動演奏ツールの詳細README](./自動演奏ツール/README.md)を参照してください。
+CSVの列構成、演奏スタイル、全MIDI対応表については、[自動演奏ツールの詳細README](./ハートピアノ/自動演奏ツール/README.md)を参照してください。
 
 ## 🎼 自動演奏ツールの演奏スタイル
 
@@ -174,5 +174,5 @@ CSVの列構成、演奏スタイル、全MIDI対応表については、[自動
 
 ## 📚 詳細ドキュメント
 
-- [Heart Pianoの詳細README](./README.md)
-- [自動演奏ツールの詳細README](./自動演奏ツール/README.md)
+- [Heart Pianoの詳細README](./ハートピアノ/README.md)
+- [自動演奏ツールの詳細README](./ハートピアノ/自動演奏ツール/README.md)
