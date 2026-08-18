@@ -1,4 +1,4 @@
-# 💖 Heart Piano & CHIMERA
+# 💖 Heart Piano & 自動演奏ツール
 
 PCキーボードで演奏できるブラウザピアノと、CSVの音符データから自動演奏を行うAutoHotkeyエンジンを組み合わせたプロジェクトです。
 
