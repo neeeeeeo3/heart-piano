@@ -59,10 +59,10 @@ AutoHotkeyスクリプトはキーボードやマウスの自動操作が可能�
 ## ファイル構成例
 
 ```text
-chimera-ultima/
-├── 2234782f-b36e-4497-940b-5d065c5c44d1.ahk
+自動演奏ツール/
+├── 自動演奏ツール.ahk
 ├── music.csv
-└── CHIMERA-V99-README.md
+└── README.md
 ```
 
 CSVは別のフォルダに置いても構いません。起動時のファイル選択画面から指定できます。
